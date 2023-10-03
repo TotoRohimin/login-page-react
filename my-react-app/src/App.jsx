@@ -1,7 +1,10 @@
+import React from "react";
+import LoginPage from "./Pages/login";
+
 function App() {
   return (
-    <div className="flex justify-center bg-blue-600 min-h-screen items-center">
-      <div>Toto</div>
+    <div className="flex justify-center min-h-screen items-center">
+      <LoginPage></LoginPage>
     </div>
   );
 }
